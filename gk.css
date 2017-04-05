@@ -1,0 +1,174 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.container
+{
+    width:100%;
+}
+.wrapper
+{
+	margin:auto;
+	width:900px;
+	padding:0px;
+}
+.dark
+{
+	background-color:black;
+	color:red;
+	padding:0px;
+}
+.light
+{
+	background-color:#e9edf2;
+	padding:0px;
+}
+#back
+{
+	cursor:pointer;
+}
+#top_div
+{
+	height:40px;
+	line-height:25px;
+	font-family:Elephant;
+	margin-top:-45px;
+}
+#top_left
+{
+	display:inline-block;
+}
+#top_right
+{
+	float:right;
+}
+#logo_left
+{
+	margin-left:240px;
+}
+.hac
+{
+	margin-bottom:15px;
+	margin-left:350px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	overflow:hidden;
+	position:relative;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:50px;
+}
+.inner
+{
+	width:300px;
+	height:50px;
+	font:bold 13px/50px "Elephant";
+	position:absolute; right: 0;
+	color:#e9edf2;
+	text-decoration:none;
+	white-space:pre;
+	transition:width .7s, color .7s;
+}
+.inner:before
+{
+	content:"";
+	position:absolute;
+	width:139px;
+	height:39px;
+	right:5px;
+	top:5px;
+    border-radius:50px;
+}
+.color1
+{
+	background:linear-gradient(60deg, deepskyblue 150px,#333 180px, #333);
+	text-align:center;
+}
+.color2
+{
+	background:linear-gradient(60deg, lightgreen 150px,#333 180px, #333);
+	text-align:center;
+}
+.color3
+{
+	background:linear-gradient(60deg, pink 150px,#333 180px, #333);
+	text-align:center;
+}
+.inner:hover
+{
+	width: 150px;
+	color: black;
+}
+#form
+{
+	margin-left:100px;
+	margin-right:100px;
+	border-radius:100px;
+	margin-top:30px;
+	border-left-color:#B3C100;
+	border-bottom-color:#4CB5F5;
+	border-right-color:#B3C100;
+	border-top-color:#4CB5F5;
+	border-width:20px;
+	box-shadow:10px 10px 10px gray;
+}
+#info
+{
+	font-family:Elephant;
+	font-size:50px;
+    text-align:center;
+	color:#34675C;
+}
+#name
+{
+	margin-left:550px;
+	margin-bottom:20px;
+	margin-top:20px;
+	width:580px;
+	height:35px;
+	font-family:Elephant;
+	font-size:20px;
+	border:1px solid gray;
+	color:#34675C;
+}
+#name:hover
+{
+	box-shadow:2px 2px 10px gray;
+}
+#gender
+{
+	margin-left:770px;
+	height:20px;
+	width:20px;
+	margin-bottom:20px;
+}
+h3
+{
+	font-family:Elephant;
+	color:#34675C;
+	margin-left:800px;
+	margin-top:-40px;
+	margin-bottom:20px;
+}
+#start
+{
+	font-family:Elephant;
+	font-size:20px;
+	background-color:lightgreen;
+	color:green;
+	margin-left:700px;
+	height:35px;
+	width:200px;
+	margin-bottom:50px;
+	cursor:pointer;
+	border:1px solid lightgreen;
+}
+#start:hover
+{
+	background-color:green;
+	border:green;
+	color:lightgreen;
+	box-shadow:3px 3px 10px gray;
+}

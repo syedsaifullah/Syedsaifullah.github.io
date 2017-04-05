@@ -1,0 +1,1084 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.container
+{
+    width:100%;
+}
+.wrapper
+{
+	margin:auto;
+	width:900px;
+	padding:0px;
+}
+.dark
+{
+	background-color:black;
+	color:red;
+	padding:0px;
+}
+.light
+{
+	background-color:#e9edf2;
+	padding:0px;
+}
+#top_div
+{
+	font-family:Snap ITC;
+	height:60px;
+	line-height:60px;
+}
+#top_left
+{
+	display:inline-block;
+}
+#top_right
+{
+	float:right;
+}
+#logo_left
+{
+	margin-left:240px;
+}
+.hac
+{
+    margin-bottom:15px;
+	margin-left:350px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	overflow:hidden;
+	position:relative;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:50px;
+}
+
+.inner
+{
+	width:300px;
+	height:50px;
+	font:bold 16px/50px "Snap ITC";
+	position:absolute; right: 0;
+	color:#e9edf2;
+	text-decoration:none;
+	white-space:pre;
+	transition:width .7s, color .7s;
+}
+
+.inner:before
+{
+	content:"";
+	position:absolute;
+	width:139px;
+	height:39px;
+	right:5px;
+	top:5px;
+	border-radius:50px;
+}
+.color1
+{
+	background:linear-gradient(60deg, deepskyblue 150px,#333 180px, #333);
+	text-align:center;
+}
+.color2
+{
+	background:linear-gradient(60deg, lightgreen 150px,#333 180px, #333);
+	text-align:center;
+}
+.color3
+{
+	background-color:pink;
+	text-align:right;
+}
+.color3:before
+{
+	border:1px solid #333;	
+}
+.inner:hover
+{
+	width: 150px;
+	color: black;
+}
+h1
+{
+	color:green;
+	font-family:Snap ITC;
+	font-size:50px;
+	margin-left:740px;
+	margin-top:30px;
+}
+#first
+{
+	margin-top:100px;
+	margin-left:660px;
+	width:580px;
+	height:35px;
+	font-family:Snap ITC;
+	font-size:20px;
+	border:1px solid gray;
+}
+#first:hover
+{
+	box-shadow:2px 2px 10px gray;
+}
+#last
+{
+	margin-top:20px;
+	margin-left:660px;
+	width:580px;
+	height:35px;
+	font-family:Snap ITC;
+	font-size:20px;
+	border:1px solid gray;
+}
+#last:hover
+{
+	box-shadow:2px 2px 10px gray;
+}
+#male
+{
+	margin-top:20px;
+	margin-left:660px;
+	height:20px;
+	width:20px;
+}
+#female
+{
+	margin-top:10px;
+	margin-left:660px;
+	height:20px;
+	width:20px;
+}
+#select
+{
+	font-family:Snap ITC;
+	font-size:20px;
+	margin-left:660px;
+	margin-top:20px;
+	border:1px solid gray;
+	width:480px;
+	height:35px;
+}
+#select:hover
+{
+	box-shadow:2px 2px 10px gray;
+}
+#message
+{
+	margin-top:20px;
+	margin-left:660px;
+	width:580px;
+	height:100px;
+	font-family:Snap ITC;
+	font-size:20px;
+	border:1px solid gray;
+}
+#message:hover
+{
+	box-shadow:2px 2px 10px gray;
+}
+#clear
+{
+	margin-top:20px;
+	margin-left:700px;
+	width:240px;
+	height:35px;
+	font-family:Snap ITC;
+	font-size:20px;
+	background-color:deepskyblue;
+	border:1px solid deepskyblue;
+	color:blue;
+	border-radius:8px;
+}
+#clear:hover
+{
+	box-shadow:3px 3px 10px gray;
+	background-color:blue;
+	border:1px solid blue;
+	color:deepskyblue;
+	cursor:pointer;
+}
+#send
+{
+	margin-top:20px;
+	margin-left:20px;
+	width:240px;
+	height:35px;
+	font-family:Snap ITC;
+	font-size:20px;
+	background-color:yellow;
+	border:1px solid yellow;
+	color:orange;
+	border-radius:8px;
+}
+#send:hover
+{
+	box-shadow:3px 3px 10px gray;
+	background-color:orange;
+	border:1px solid orange;
+	color:yellow;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

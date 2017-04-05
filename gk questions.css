@@ -1,0 +1,161 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.container
+{
+    width:100%;
+}
+.wrapper
+{
+	margin:auto;
+	width:900px;
+	padding:0px;
+}
+.dark
+{
+	background-color:black;
+	color:red;
+	padding:0px;
+}
+.light
+{
+	background-color:#e9edf2;
+	padding:0px;
+}
+#back
+{
+	cursor:pointer;
+}
+#top_div
+{
+	height:40px;
+	line-height:25px;
+	font-family:Elephant;
+	margin-top:-45px;
+}
+#top_left
+{
+	display:inline-block;
+}
+#top_right
+{
+	float:right;
+}
+#logo_left
+{
+	margin-left:240px;
+}
+.hac
+{
+	margin-bottom:15px;
+	margin-left:350px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	overflow:hidden;
+	position:relative;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:50px;
+}
+.inner
+{
+	width:300px;
+	height:50px;
+	font:bold 13px/50px "Elephant";
+	position:absolute; right: 0;
+	color:#e9edf2;
+	text-decoration:none;
+	white-space:pre;
+	transition:width .7s, color .7s;
+}
+.inner:before
+{
+	content:"";
+	position:absolute;
+	width:139px;
+	height:39px;
+	right:5px;
+	top:5px;
+    border-radius:50px;
+}
+.color1
+{
+	background:linear-gradient(60deg, deepskyblue 150px,#333 180px, #333);
+	text-align:center;
+}
+.color2
+{
+	background:linear-gradient(60deg, lightgreen 150px,#333 180px, #333);
+	text-align:center;
+}
+.color3
+{
+	background:linear-gradient(60deg, pink 150px,#333 180px, #333);
+	text-align:center;
+}
+.inner:hover
+{
+	width: 150px;
+	color: black;
+}
+h1
+{
+	text-decoration:underline;
+	color:#34675C;
+	text-align:center;
+	margin-top:30px;
+	font-family:Elephant;
+	font-size:50px;
+}
+#iq
+{
+	margin-top:30px;
+	margin-left:20px;
+	width:20px;
+	height:20px;
+}
+#qi
+{
+	margin-left:20px;
+	width:20px;
+	height:20px;
+}
+h2
+{
+	color:#4CB5F5;
+	margin-left:20px;
+	margin-top:50px;
+}
+h3
+{
+	color:#B3C100;
+	margin-left:60px;
+	margin-top:-25px;
+	margin-bottom:25px;
+}
+#check
+{
+	font-family:Elephant;
+	font-size:20px;
+	background-color:pink;
+	color:red;
+	margin-left:20px;
+	height:35px;
+	width:200px;
+	margin-top:50px;
+	margin-bottom:50px;
+	cursor:pointer;
+	border:1px dashed red;
+	border-radius:10px;
+}
+#check:hover
+{
+	background-color:red;
+	border:1px dashed pink;
+	color:pink;
+	box-shadow:3px 3px 10px gray;
+	border-radius:10px;
+}
